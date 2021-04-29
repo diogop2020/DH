@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/4078748f8e.js" crossorigin="anonymous"></script>
+  <title>Landing page with two column layout</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="logo.jpg" width="40"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="Home.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="Albuns.html">Albuns</a>
+        <a class="nav-item nav-link" href="Acerca.html">Acerca</a>
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+            </div>
+            
+          </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="cards1">
+        <div class="box">
+          <div class="imgBx">
+              <img src=" Albuns_card1.jpg">
+          </div>
+          <div class="content">
+              <h2>Natureza</h2>
+              <p>Clique no botao ver mais para ver mais imagens como esta!</p>
+              <a href="Natureza.html">+ INFO</a>
+          </div>
+        </div>
+    
+        <div class="box">
+          <div class="imgBx">
+              <img src=" Albuns_card2.jpg">
+          </div>
+          <div class="content">
+              <h2>Comida</h2>
+              <p>Clique no botao ver mais para ver mais imagens como esta!</p>
+              <a href="Comida.html">+ INFO</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="imgBx">
+              <img src=" Albuns_card3.jpg">
+          </div>
+          <div class="content">
+              <h2>Animais</h2>
+              <p>Clique no botao ver mais para ver mais imagens como esta!</p>
+              <a href="Animais.html">+ INFO</a>
+          </div>
+        </div>
+
+  </div>
+
+  <div class="cards2">
+    <div class="box">
+        <div class="imgBx">
+            <img src=" Albuns_card4.jpg">
+        </div>
+        <div class="content">
+            <h2>Transportes</h2>
+            <p>Clique no botao ver mais para ver mais imagens como esta!</p>
+            <a href="Transportes.html">+ INFO</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="imgBx">
+            <img src=" Albuns_card5.jpg">
+        </div>
+        <div class="content">
+            <h2>Arte</h2>
+            <p>Clique no botao ver mais para ver mais imagens como esta!</p>
+            <a href="Arte.html">+ INFO</a>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="imgBx">
+            <img src=" Albuns_card6.jpg">
+        </div>
+        <div class="content">
+            <h2>Universo</h2>
+            <p>Clique no botao ver mais para ver mais imagens como esta!</p>
+            <a href="Universo.html">+ INFO</a>
+        </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class=" row px-0">
+        <div class="col-lg-6 text-left p-5">
+            <h3> A sua opinião conta para nós! </h3>
+            <p> Se tiver alguma ideia ou alguma coisa para nos dizer basta mandar-nos um email.</p>
+          </div>
+          <div class="col-lg-6 text-center p-5">
+              <div>  <input placeholder="Introduza o seu email"> </div>
+              <p>Please check your email</p>
+              <div class="p-1">  <button class="p-1 mb-2 bg-primary text-white ">Get Started For Free</button></div>
+          </div>  
+    </div>
+  </footer>
+
+  <footer>
+    <div class="row px-0 fundo_escuro">
+      
+      <div class="col-lg-3 text-left p-5"> 
+        <div><img src="icon-phone.svg" > +1-543-123-4567</div>
+        <div><img src="icon-email.svg">  example@albuns.com</div>
+      </div>
+
+      <div class="col-lg-3 text-left p-5"> 
+        <div>About Us</div>
+        <div>Jobs</div>
+        <div>Press</div>
+        <div>Blog</div>
+      </div>
+
+      <div class="col-lg-3 text-left p-5"> 
+        <div>Contact Us</div>
+        <div>Terms</div>
+        <div>Privacy</div>
+      </div>
+
+      <div class="col-lg-3 p-5 imagens_footer" >
+        <div class="social-media">
+          <a href="#">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+  </footer>
+
+<!--principal -->
+   <style>  
+    footer {
+      color: black;
+      background-color:#FFA07A;
+    }
+    .fundo_escuro{
+      background-color:#FF7F50;
+    }
+    /* .logo_footer{
+      filter: brightness(2) invert(100%);
+    } */
+    .social-media a{
+      padding: 0 10px;
+      color: black;
+      text-decoration: none;
+    }
+    .social-media a:hover{
+      color: grey;
+    }
+    .body_margin{
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+    
+               
+  </style>
+
+<!-- cards1 -->
+  <style>
+    .cards1{
+        position: relative;
+        width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+        font-family: consolas;
+    }
+    .cards1 .box{
+        position: relative;
+        width: 280px;
+        height: 400px;
+        margin: 20px 0;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 15px #FF7F50;
+        overflow: hidden;
+    }
+    .cards1 .box .imgBx{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #FF7F50;
+        clip-path: circle(400px at center 100px);
+        transition: 0.5s;
+        transition-delay: 0.5ss;
+    }
+    .cards1 .box:hover .imgBx{
+        clip-path: circle(80px at center 100px);
+        transition-delay: 0s;
+    }
+    .cards1 .box .content{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 55%;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .cards1 .box .content h2{
+        margin: 0;
+        padding: 0;
+    }
+    .cards1 .box .content a{
+        text-decoration: none;
+        background: #FF7F50;
+        color: #ffffff;
+        padding: 5px;
+        display: inline-block;
+    }
+    .cards1 .box .imgBx img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cards1 .box .content h2,
+    .cards1 .box .content p,
+    .cards1 .box .content a{
+        opacity: 0;
+        transition: 0.5s;
+        transform: translateY(20px);
+    }
+    .cards1 .box:hover .content h2{
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.5s;
+    }
+    .cards1 .box:hover .content p{
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.7s;
+    }
+    .cards1 .box:hover .content a{
+        opacity: 1;
+        transform: translateY(0);
+        transition-delay: 0.9s;
+    }
+  </style>
+
+<!-- cards2 -->
+    <style>
+        .cards2{
+            position: relative;
+            width: 1200px;
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            font-family: consolas;
+        }
+        .cards2 .box{
+            position: relative;
+            width: 280px;
+            height: 400px;
+            margin: 20px 0;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 15px #FF7F50;
+            overflow: hidden;
+        }
+        .cards2 .box .imgBx{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #FF7F50;
+            clip-path: circle(400px at center 100px);
+            transition: 0.5s;
+            transition-delay: 0.5ss;
+        }
+        .cards2 .box:hover .imgBx{
+            clip-path: circle(80px at center 100px);
+            transition-delay: 0s;
+        }
+        .cards2 .box .content{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 55%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .cards2 .box .content h2{
+            margin: 0;
+            padding: 0;
+        }
+        .cards2 .box .content a{
+            text-decoration: none;
+            background: #FF7F50;
+            color: #ffffff;
+            padding: 5px;
+            display: inline-block;
+        }
+        .cards2 .box .imgBx img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .cards2 .box .content h2,
+        .cards2 .box .content p,
+        .cards2 .box .content a{
+            opacity: 0;
+            transition: 0.5s;
+            transform: translateY(20px);
+        }
+        .cards2 .box:hover .content h2{
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.5s;
+        }
+        .cards2 .box:hover .content p{
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.7s;
+        }
+        .cards2 .box:hover .content a{
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.9s;
+        }
+    </style>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+</body>
+</html>

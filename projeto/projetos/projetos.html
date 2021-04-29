@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Project page</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">  
+  <div class="alinha_frases">
+    <div class="frases_inicio">
+      <div class="indireita_frases">
+        <h1 style="font-weight: 200;">Reliable, efficient delivery</h1>
+        <h1 style="font-weight: 600;"><strong>Powered by Technology</strong></h1>
+        <p style="color: hsl(229, 6%, 66%);">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="geral">
+    <div class="caixa1">
+      <h3>Supervisor</h3>
+      <p>Monitors activity to identify project roadblocks</p>
+    </div>
+
+    <div class="caixas_meio">
+      <div class="caixa2">
+        <h3>Team Builder</h3>
+        <p>Scans our talent network to create the optimal team for your project</p>
+      </div>
+
+      <div class="caixa3">
+        <h3>Karma</h3>
+        <p>Regularly evaluates our talent to ensure quality</p>   
+      </div>
+    </div>
+
+    <div class="caixa4">
+      <h3>Calculator</h3>
+      <p>Uses data from past projects to provide better delivery estimates</p>    
+    </div>
+  </div>
+</div>  
+
+</body>
+<style>
+
+  body{    
+    width: 1440px;
+    justify-content: center;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+    background-color: hsl(0, 0%, 98%);  
+  }
+
+  .container{
+    justify-content: center;
+  }
+
+  .alinha_frases{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .frases_inicio{
+    align-items: center;
+  }
+
+  .indireita_frases{
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .geral{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .caixas_meio{
+
+    flex-direction: column;
+  }
+
+  .caixa1{
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    background-image: url(images/icon-team-builder.svg);
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+    background-position-y: 150px;
+    margin: 20px;
+  }
+
+  .caixa2{
+    padding: 20px;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    background-image: url(images/icon-supervisor.svg);
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+    background-position-y: 150px;
+    margin: 20px;
+  }
+
+  .caixa3{
+    padding: 20px;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+    box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    background-image: url(images/icon-calculator.svg);
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+    background-position-y: 150px;
+    margin: 20px;
+  }
+
+  .caixa4{
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+    background-image: url(images/icon-karma.svg);
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+    background-position-y: 150px;
+    margin: 20px;
+  }
+
+  @media only screen and (max-width: 375px) { 
+
+    .container{
+      display: block;
+      width: 375px;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+
+    .geral{
+      margin-left: 20px;
+      flex-direction: column;
+    }
+  }
+
+</style>
+</html>

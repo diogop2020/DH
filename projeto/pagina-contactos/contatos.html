@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <title>Contact Page</title>
+
+</head>
+<body>
+
+  <h1 class='titulo'>Contactos</h1>
+
+  <div class='searchbox'>
+    <input class='inputsearch' type="text" placeholder="Procurar..." name="search">
+    <button type="submit" class="searchbotao"></button>
+  </div>
+
+  <div class='posicionamentoformulario'>
+    <div class='formulario'>
+      <div>
+        <p class='formulariotitulo'>Localização</p>
+        <p class='formulariotexto'>Exemplo.Cordenadas</p>
+      </div>
+      <div class='separa'></div>
+      <div>
+        <p class='formulariotitulo'>Morada</p>
+        <p class='formulariotexto'>Exemplo, morada 11111</p>
+      </div>
+      <div class='separa'></div>
+      <div>
+        <p class='formulariotitulo'>Email</p>
+        <p class='formulariotexto'>exemplo@email.com</p>
+      </div>
+      <div class='separa'></div>
+      <div>
+        <p class='formulariotitulo'>Telefone</p>
+        <p class='formulariotexto'>3210312434</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Coded by <a href="#">Nome do Aluno</a>.
+    </p>
+  </footer>
+
+  <style>
+
+    html {
+      font-family: 'Rubik', sans-serif;
+      background-image: url(images/pattern-bg.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 2000px;
+    }
+
+    .titulo {
+      padding-top: 40px;
+      text-align: center;
+      color: white;
+    }
+
+    .inputsearch {
+      padding-left: 15px;
+      font-size: 17px;
+      border: none;
+      height: 56px;
+      width: 450px;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+    }
+
+    .searchbotao {
+      background-color: hsl(0, 0%, 17%);
+      background-image: url(images/icon-arrow.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      border: none;
+      color: white;
+      padding: 28px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    .searchbotao:hover {
+      background-color: hsl(0, 0%, 27%);
+    }
+
+    .searchbox {
+      display: flex;
+      justify-content: center;
+    }
+
+    .posicionamentoformulario {
+      display: flex;
+      justify-content: center;
+      padding-top: 80px;
+    }
+
+    .formulario {
+      width: 1200px;
+      height: 180px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+      background-color: white;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .formulariotitulo {
+      color: hsl(0, 0%, 59%);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 2px;
+      padding-top: 20px;
+    }
+
+    .formulariotexto {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .separa {
+      display: flex;
+      align-self: center;
+      width: 1px;
+      height: 80px;
+      background-color: rgb(209, 209, 209);
+    }
+
+    .attribution {
+      font-size: 11px; text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</body>
+</html>
